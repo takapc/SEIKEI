@@ -1,0 +1,1112 @@
+{
+  "version": "1.0",
+  "categories": [
+    "政治原理・民主政治",
+    "日本国憲法・基本的人権",
+    "国会・内閣・司法",
+    "地方自治",
+    "選挙・政党",
+    "国際政治",
+    "経済理論・市場",
+    "企業・労働",
+    "金融",
+    "財政",
+    "社会保障",
+    "日本経済史",
+    "国際経済",
+    "環境・人口・現代社会"
+  ],
+  "events": [
+    {
+      "id": "ev-c94ae5d750d4",
+      "title": "マグナ・カルタの承認",
+      "year": 1215,
+      "dateType": "承認",
+      "categories": [
+        "政治原理・民主政治"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/2015-parliament-in-the-making/get-involved1/2015-parliament-in-the-making-events/magna-carta--parliament-exhibition/"
+    },
+    {
+      "id": "ev-1c3ea201f9fd",
+      "title": "フランス人権宣言の採択",
+      "year": 1789,
+      "dateType": "採択",
+      "categories": [
+        "政治原理・民主政治"
+      ],
+      "importance": 4,
+      "sourceUrl": "https://www.elysee.fr/la-presidence/la-declaration-des-droits-de-l-homme-et-du-citoyen"
+    },
+    {
+      "id": "ev-ba384cdc7e2c",
+      "title": "権利請願の成立",
+      "year": 1628,
+      "dateType": "成立",
+      "categories": [
+        "政治原理・民主政治"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/2015-parliament-in-the-making/get-involved1/2015-parliament-in-the-making-events/magna-carta--parliament-exhibition/"
+    },
+    {
+      "id": "ev-e694e8ca8e06",
+      "title": "人身保護法の成立",
+      "year": 1679,
+      "dateType": "成立",
+      "categories": [
+        "政治原理・民主政治"
+      ],
+      "importance": 1,
+      "sourceUrl": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/2015-parliament-in-the-making/get-involved1/2015-parliament-in-the-making-events/magna-carta--parliament-exhibition/"
+    },
+    {
+      "id": "ev-5ff6a2ea5a8e",
+      "title": "イギリス権利章典の成立",
+      "year": 1689,
+      "dateType": "成立",
+      "categories": [
+        "政治原理・民主政治"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/revolution/collections1/collections-glorious-revolution/billofrights/"
+    },
+    {
+      "id": "ev-cf856fe1884d",
+      "title": "アメリカ独立宣言の採択",
+      "year": 1776,
+      "dateType": "採択",
+      "categories": [
+        "政治原理・民主政治"
+      ],
+      "importance": 4,
+      "sourceUrl": "https://www.archives.gov/founding-docs/declaration-history"
+    },
+    {
+      "id": "ev-cabedd81557e",
+      "title": "アメリカ合衆国憲法への署名",
+      "year": 1787,
+      "dateType": "署名",
+      "categories": [
+        "政治原理・民主政治"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.archives.gov/milestone-documents/constitution"
+    },
+    {
+      "id": "ev-428f2890efc6",
+      "title": "大日本帝国憲法の発布",
+      "year": 1889,
+      "dateType": "発布",
+      "categories": [
+        "日本国憲法・基本的人権"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://www.archives.go.jp/hub/meiji/"
+    },
+    {
+      "id": "ev-8818f4461936",
+      "title": "大日本帝国憲法の施行",
+      "year": 1890,
+      "dateType": "施行",
+      "categories": [
+        "日本国憲法・基本的人権"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.archives.go.jp/ayumi/kobetsu/m23_1890_03.html"
+    },
+    {
+      "id": "ev-8427a2b46e36",
+      "title": "ワイマール憲法の制定",
+      "year": 1919,
+      "dateType": "制定",
+      "categories": [
+        "政治原理・民主政治"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://weimar.bundesarchiv.de/WEIMAR/DE/Content/Dokumente-zur-Zeitgeschichte/1919-08-11_Verfassung.html"
+    },
+    {
+      "id": "ev-8b184b49f47a",
+      "title": "国際連盟の発足",
+      "year": 1920,
+      "dateType": "発足",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://www.ndl.go.jp/modern/utility/chronology.html"
+    },
+    {
+      "id": "ev-73555bb10d2e",
+      "title": "世界恐慌の始まり",
+      "year": 1929,
+      "dateType": "発生",
+      "categories": [
+        "経済理論・市場"
+      ],
+      "importance": 4,
+      "sourceUrl": "https://www.federalreservehistory.org/essays/great-depression"
+    },
+    {
+      "id": "ev-6341bf601318",
+      "title": "ポツダム宣言の発表",
+      "year": 1945,
+      "dateType": "発表",
+      "categories": [
+        "日本国憲法・基本的人権"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://www.ndl.go.jp/constitution/etc/history.html"
+    },
+    {
+      "id": "ev-7cd1cf66ece5",
+      "title": "GHQ草案の提示",
+      "year": 1946,
+      "dateType": "提示",
+      "categories": [
+        "日本国憲法・基本的人権"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.ndl.go.jp/constitution/etc/history.html"
+    },
+    {
+      "id": "ev-d08601095010",
+      "title": "日本国憲法の公布",
+      "year": 1946,
+      "dateType": "公布",
+      "categories": [
+        "日本国憲法・基本的人権"
+      ],
+      "importance": 4,
+      "sourceUrl": "https://www.ndl.go.jp/constitution/etc/history.html"
+    },
+    {
+      "id": "ev-7666ee4bed2a",
+      "title": "日本国憲法の施行",
+      "year": 1947,
+      "dateType": "施行",
+      "categories": [
+        "日本国憲法・基本的人権"
+      ],
+      "importance": 4,
+      "sourceUrl": "https://www.ndl.go.jp/constitution/etc/history.html"
+    },
+    {
+      "id": "ev-9865954a60df",
+      "title": "世界人権宣言の採択",
+      "year": 1948,
+      "dateType": "採択",
+      "categories": [
+        "日本国憲法・基本的人権"
+      ],
+      "importance": 4,
+      "sourceUrl": "https://www.un.org/en/about-us/udhr/history-of-the-declaration"
+    },
+    {
+      "id": "ev-3823467c7c7f",
+      "title": "国際人権規約（社会権規約）の採択",
+      "year": 1966,
+      "dateType": "採択",
+      "categories": [
+        "日本国憲法・基本的人権"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.un.org/womenwatch/daw/cedaw/cedaw20/history.htm"
+    },
+    {
+      "id": "ev-e3eb1d06d1b3",
+      "title": "国際人権規約（自由権規約）の採択",
+      "year": 1966,
+      "dateType": "採択",
+      "categories": [
+        "日本国憲法・基本的人権"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.un.org/womenwatch/daw/cedaw/cedaw20/history.htm"
+    },
+    {
+      "id": "ev-487ec4f991c2",
+      "title": "女子差別撤廃条約の採択",
+      "year": 1979,
+      "dateType": "採択",
+      "categories": [
+        "日本国憲法・基本的人権"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.un.org/womenwatch/daw/cedaw/cedaw20/history.htm"
+    },
+    {
+      "id": "ev-efb61d343306",
+      "title": "子どもの権利条約の採択",
+      "year": 1989,
+      "dateType": "採択",
+      "categories": [
+        "日本国憲法・基本的人権"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://treaties.un.org/pages/showmtdsgdetails.aspx?chapter=4&lang=en&mtdsg_no=iv-11&src=untsonline&tabid=2"
+    },
+    {
+      "id": "ev-726ba72c485a",
+      "title": "女性が初めて参加した衆議院総選挙",
+      "year": 1946,
+      "dateType": "実施",
+      "categories": [
+        "国会・内閣・司法",
+        "選挙・政党"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://www.ndl.go.jp/constitution/gaisetsu/04gaisetsu.html"
+    },
+    {
+      "id": "ev-df22bae3a1cf",
+      "title": "第1回参議院議員通常選挙",
+      "year": 1947,
+      "dateType": "実施",
+      "categories": [
+        "国会・内閣・司法"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.ndl.go.jp/constitution/gaisetsu/05gaisetsu.html"
+    },
+    {
+      "id": "ev-5a9ab9bb3046",
+      "title": "地方自治法の施行",
+      "year": 1947,
+      "dateType": "施行",
+      "categories": [
+        "地方自治"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://www.archives.go.jp/ayumi/kobetsu/s22_1947_04.html"
+    },
+    {
+      "id": "ev-03f06651bfde",
+      "title": "地方分権一括法の施行と機関委任事務の廃止",
+      "year": 2000,
+      "dateType": "施行",
+      "categories": [
+        "地方自治"
+      ],
+      "importance": 1,
+      "sourceUrl": "https://www.cao.go.jp/bunken-suishin/doc/kaigi05shiryou11.pdf"
+    },
+    {
+      "id": "ev-c6d31a30aef2",
+      "title": "普通選挙法の成立（男子普通選挙）",
+      "year": 1925,
+      "dateType": "成立",
+      "categories": [
+        "選挙・政党"
+      ],
+      "importance": 4,
+      "sourceUrl": "https://www.shugiin.go.jp/internet/itdb_kenpou.nsf/html/kenpou/shukenshi092.pdf/$File/shukenshi092.pdf"
+    },
+    {
+      "id": "ev-ec5a9527f29f",
+      "title": "女性参政権を認める衆議院議員選挙法改正",
+      "year": 1945,
+      "dateType": "改正",
+      "categories": [
+        "選挙・政党",
+        "国会・内閣・司法"
+      ],
+      "importance": 4,
+      "sourceUrl": "https://www.shugiin.go.jp/internet/itdb_kenpou.nsf/html/kenpou/shukenshi092.pdf/$File/shukenshi092.pdf"
+    },
+    {
+      "id": "ev-7057f3411588",
+      "title": "選挙権年齢を18歳に引き下げる改正法の成立",
+      "year": 2015,
+      "dateType": "成立",
+      "categories": [
+        "選挙・政党"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://www.shugiin.go.jp/internet/itdb_kenpou.nsf/html/kenpou/shukenshi092.pdf/$File/shukenshi092.pdf"
+    },
+    {
+      "id": "ev-01bfe22813c2",
+      "title": "18歳選挙権で初の国政選挙",
+      "year": 2016,
+      "dateType": "実施",
+      "categories": [
+        "選挙・政党"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.shugiin.go.jp/internet/itdb_kenpou.nsf/html/kenpou/shukenshi092.pdf/$File/shukenshi092.pdf"
+    },
+    {
+      "id": "ev-f8b9671daf8b",
+      "title": "国際連合の発足",
+      "year": 1945,
+      "dateType": "発足",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 4,
+      "sourceUrl": "https://www.un.org/en/about-us/history-of-the-un"
+    },
+    {
+      "id": "ev-d351903c4347",
+      "title": "独占禁止法の制定",
+      "year": 1947,
+      "dateType": "制定",
+      "categories": [
+        "日本経済史",
+        "経済理論・市場"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.archives.go.jp/ayumi/kobetsu/s22_1947_03.html"
+    },
+    {
+      "id": "ev-4ccd7d57003f",
+      "title": "北大西洋条約機構（NATO）の発足",
+      "year": 1949,
+      "dateType": "発足",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://www.nato.int/en/about-us/organization/founding-treaty"
+    },
+    {
+      "id": "ev-ef1cb366c3a3",
+      "title": "朝鮮戦争の勃発",
+      "year": 1950,
+      "dateType": "発生",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://history.state.gov/milestones/1945-1952/korean-war"
+    },
+    {
+      "id": "ev-4513da0184e2",
+      "title": "サンフランシスコ平和条約の調印",
+      "year": 1951,
+      "dateType": "調印",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 4,
+      "sourceUrl": "https://www.mofa.go.jp/mofaj/ms/da/page24_001795.html"
+    },
+    {
+      "id": "ev-64749a8e08e0",
+      "title": "旧日米安全保障条約の調印",
+      "year": 1951,
+      "dateType": "調印",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.mofa.go.jp/mofaj/ms/da/page24_001795.html"
+    },
+    {
+      "id": "ev-aceea889d271",
+      "title": "サンフランシスコ平和条約の発効と日本の主権回復",
+      "year": 1952,
+      "dateType": "発効",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.mofa.go.jp/mofaj/press/pr/pub/pamph/pdfs/ju150.pdf"
+    },
+    {
+      "id": "ev-f635e6bef153",
+      "title": "自衛隊の発足",
+      "year": 1954,
+      "dateType": "発足",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://www.mod.go.jp/gsdf/about/history/index.html"
+    },
+    {
+      "id": "ev-a6522c8925e2",
+      "title": "自由民主党の結成と55年体制の成立",
+      "year": 1955,
+      "dateType": "成立",
+      "categories": [
+        "国会・内閣・司法",
+        "選挙・政党"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://www.ndl.go.jp/modern/cha6/"
+    },
+    {
+      "id": "ev-a704ce601cd5",
+      "title": "ローマ条約の調印",
+      "year": 1957,
+      "dateType": "調印",
+      "categories": [
+        "国際経済"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.europarl.europa.eu/about-parliament/en/in-the-past/the-parliament-and-the-treaties/treaty-of-rome"
+    },
+    {
+      "id": "ev-475e6a8abb59",
+      "title": "新日米安全保障条約の調印",
+      "year": 1960,
+      "dateType": "調印",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://www.mofa.go.jp/na/st/page1we_000093.html"
+    },
+    {
+      "id": "ev-6ea1b7e1baa0",
+      "title": "キューバ危機",
+      "year": 1962,
+      "dateType": "発生",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://history.state.gov/milestones/1961-1968/cuban-missile-crisis"
+    },
+    {
+      "id": "ev-a31889b7d940",
+      "title": "沖縄の日本復帰",
+      "year": 1972,
+      "dateType": "実施",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://www.mofa.go.jp/mofaj/annai/honsho/shiryo/page24_001761.html"
+    },
+    {
+      "id": "ev-604b083ee0bc",
+      "title": "日中共同声明の発表と国交正常化",
+      "year": 1972,
+      "dateType": "発表",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://www.mofa.go.jp/mofaj/ms/da/page24_001940.html"
+    },
+    {
+      "id": "ev-ca44d90c0633",
+      "title": "第一次石油危機",
+      "year": 1973,
+      "dateType": "発生",
+      "categories": [
+        "日本経済史",
+        "企業・労働",
+        "国際経済"
+      ],
+      "importance": 4,
+      "sourceUrl": "https://www.enecho.meti.go.jp/about/special/tokushu/anzenhosho/kasekinenryo.html"
+    },
+    {
+      "id": "ev-185ad85f7cea",
+      "title": "日本の変動相場制への移行",
+      "year": 1973,
+      "dateType": "移行",
+      "categories": [
+        "金融",
+        "国際経済",
+        "経済理論・市場"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.imes.boj.or.jp/research/papers/japanese/kk5-4-6.pdf"
+    },
+    {
+      "id": "ev-c213ce8f58b5",
+      "title": "日中平和友好条約の調印",
+      "year": 1978,
+      "dateType": "調印",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.mofa.go.jp/mofaj/ms/da/page24_001940.html"
+    },
+    {
+      "id": "ev-eb8b371bbb2c",
+      "title": "プラザ合意",
+      "year": 1985,
+      "dateType": "合意",
+      "categories": [
+        "金融",
+        "日本経済史",
+        "国際経済"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://www.elibrary.imf.org/display/book/9781616351991/ch001.xml"
+    },
+    {
+      "id": "ev-80668ba5ffe4",
+      "title": "ベルリンの壁の開放",
+      "year": 1989,
+      "dateType": "発生",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/chronik-der-ereignisse-1989-1990"
+    },
+    {
+      "id": "ev-0ae888fb6783",
+      "title": "ドイツ統一",
+      "year": 1990,
+      "dateType": "実施",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/chronik-der-ereignisse-1989-1990"
+    },
+    {
+      "id": "ev-61d17ed396e5",
+      "title": "ソビエト連邦の解体",
+      "year": 1991,
+      "dateType": "解体",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://history.state.gov/milestones/1989-1992/collapse-soviet-union"
+    },
+    {
+      "id": "ev-4aee3c22b911",
+      "title": "国連平和維持活動（PKO）協力法の成立",
+      "year": 1992,
+      "dateType": "成立",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.mod.go.jp/gsdf/about/pko/"
+    },
+    {
+      "id": "ev-08b94f7657e9",
+      "title": "マーストリヒト条約の調印",
+      "year": 1992,
+      "dateType": "調印",
+      "categories": [
+        "国際経済"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://european-union.europa.eu/principles-countries-history/history-eu/1990-99_en"
+    },
+    {
+      "id": "ev-a64e55e876d0",
+      "title": "欧州連合（EU）の発足",
+      "year": 1993,
+      "dateType": "発足",
+      "categories": [
+        "国際政治",
+        "国際経済"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://european-union.europa.eu/principles-countries-history/history-eu/1990-99_en"
+    },
+    {
+      "id": "ev-49320972c4a3",
+      "title": "日本による子どもの権利条約の批准",
+      "year": 1994,
+      "dateType": "批准",
+      "categories": [
+        "日本国憲法・基本的人権"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.mofa.go.jp/mofaj/gaiko/jido/seka.html"
+    },
+    {
+      "id": "ev-8617b585d6cc",
+      "title": "包括的核実験禁止条約（CTBT）の採択",
+      "year": 1996,
+      "dateType": "採択",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://legal.un.org/avl/ha/ctbt/ctbt.html"
+    },
+    {
+      "id": "ev-75382310a303",
+      "title": "アジア通貨危機の発生",
+      "year": 1997,
+      "dateType": "発生",
+      "categories": [
+        "国際経済",
+        "日本経済史"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.imf.org/en/Blogs/Articles/2017/07/13/what-we-have-seen-and-learned-20-years-after-the-asian-financial-crisis"
+    },
+    {
+      "id": "ev-0c17151d67ef",
+      "title": "ユーロの導入（電子決済）",
+      "year": 1999,
+      "dateType": "導入",
+      "categories": [
+        "国際経済",
+        "金融"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://european-union.europa.eu/institutions-law-budget/euro/history-and-purpose_en"
+    },
+    {
+      "id": "ev-4d3e1891bed8",
+      "title": "ユーロ紙幣・硬貨の流通開始",
+      "year": 2002,
+      "dateType": "開始",
+      "categories": [
+        "国際経済",
+        "金融"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://european-union.europa.eu/institutions-law-budget/euro/history-and-purpose_en"
+    },
+    {
+      "id": "ev-7750eaa3db7d",
+      "title": "東日本大震災",
+      "year": 2011,
+      "dateType": "発生",
+      "categories": [
+        "日本経済史",
+        "地方自治",
+        "環境・人口・現代社会"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://www.reconstruction.go.jp/english/topics/GEJE/"
+    },
+    {
+      "id": "ev-25480b606f2a",
+      "title": "日本の国際連合加盟",
+      "year": 1956,
+      "dateType": "加盟",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://www.mofa.go.jp/mofaj/fp/un/70th.html"
+    },
+    {
+      "id": "ev-d4048aca9b4e",
+      "title": "持続可能な開発目標（SDGs）の採択",
+      "year": 2015,
+      "dateType": "採択",
+      "categories": [
+        "国際政治",
+        "環境・人口・現代社会"
+      ],
+      "importance": 4,
+      "sourceUrl": "https://www.un.org/pga/wp-content/uploads/sites/3/2015/08/120815_outcome-document-of-Summit-for-adoption-of-the-post-2015-development-agenda.pdf"
+    },
+    {
+      "id": "ev-e4ce6d89f683",
+      "title": "ブレトンウッズ会議",
+      "year": 1944,
+      "dateType": "開催",
+      "categories": [
+        "経済理論・市場",
+        "金融"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.imf.org/external/about/timeline/index.htm"
+    },
+    {
+      "id": "ev-e976c67cb32a",
+      "title": "ニクソン・ショック（金とドルの交換停止）",
+      "year": 1971,
+      "dateType": "発表",
+      "categories": [
+        "経済理論・市場",
+        "金融",
+        "国際経済"
+      ],
+      "importance": 4,
+      "sourceUrl": "https://www.imf.org/external/about/timeline/index.htm"
+    },
+    {
+      "id": "ev-0575bc08c0b1",
+      "title": "リーマン・ショック",
+      "year": 2008,
+      "dateType": "発生",
+      "categories": [
+        "経済理論・市場",
+        "日本経済史",
+        "国際経済"
+      ],
+      "importance": 4,
+      "sourceUrl": "https://www.federalreservehistory.org/essays/great-recession-and-its-aftermath"
+    },
+    {
+      "id": "ev-a793cde6d264",
+      "title": "国際労働機関（ILO）の設立",
+      "year": 1919,
+      "dateType": "設立",
+      "categories": [
+        "企業・労働"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.ilo.org/about-ilo/history-ilo"
+    },
+    {
+      "id": "ev-c62cdf562c5e",
+      "title": "ILOフィラデルフィア宣言の採択",
+      "year": 1944,
+      "dateType": "採択",
+      "categories": [
+        "企業・労働"
+      ],
+      "importance": 1,
+      "sourceUrl": "https://www.ilo.org/resource/news/declaration-philadelphia-75-years"
+    },
+    {
+      "id": "ev-5c4f82e7b0da",
+      "title": "男女雇用機会均等法の成立",
+      "year": 1985,
+      "dateType": "成立",
+      "categories": [
+        "企業・労働"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://www.check-roudou.mhlw.go.jp/study/roudousya_joseisuishin.html"
+    },
+    {
+      "id": "ev-fdeff9ba0e70",
+      "title": "男女雇用機会均等法の施行",
+      "year": 1986,
+      "dateType": "施行",
+      "categories": [
+        "企業・労働"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.check-roudou.mhlw.go.jp/study/roudousya_joseisuishin.html"
+    },
+    {
+      "id": "ev-cb9c746a6536",
+      "title": "日本銀行の開業",
+      "year": 1882,
+      "dateType": "開業",
+      "categories": [
+        "金融"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.boj.or.jp/about/outline/history/his_1850.htm"
+    },
+    {
+      "id": "ev-23a7f756f0a1",
+      "title": "日本銀行の量的緩和政策導入",
+      "year": 2001,
+      "dateType": "導入",
+      "categories": [
+        "金融"
+      ],
+      "importance": 1,
+      "sourceUrl": "https://www.boj.or.jp/mopo/outline/bpreview/ref.htm"
+    },
+    {
+      "id": "ev-3f3387899bba",
+      "title": "日本銀行の量的・質的金融緩和導入",
+      "year": 2013,
+      "dateType": "導入",
+      "categories": [
+        "金融"
+      ],
+      "importance": 1,
+      "sourceUrl": "https://www.boj.or.jp/en/mopo/outline/ref_qqe.htm"
+    },
+    {
+      "id": "ev-7c014772d340",
+      "title": "消費税（税率3％）の導入",
+      "year": 1989,
+      "dateType": "施行",
+      "categories": [
+        "財政"
+      ],
+      "importance": 4,
+      "sourceUrl": "https://www.nta.go.jp/taxes/kids/hatten/page16.htm"
+    },
+    {
+      "id": "ev-2551a915b8ba",
+      "title": "消費税率を5％に引き上げ",
+      "year": 1997,
+      "dateType": "施行",
+      "categories": [
+        "財政"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://www.nta.go.jp/taxes/kids/hatten/page16.htm"
+    },
+    {
+      "id": "ev-29fa26b42cda",
+      "title": "消費税率を8％に引き上げ",
+      "year": 2014,
+      "dateType": "施行",
+      "categories": [
+        "財政"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.nta.go.jp/taxes/kids/hatten/page16.htm"
+    },
+    {
+      "id": "ev-9fa595ddcb20",
+      "title": "消費税率を10％に引き上げ",
+      "year": 2019,
+      "dateType": "施行",
+      "categories": [
+        "財政"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.nta.go.jp/taxes/kids/hatten/page16.htm"
+    },
+    {
+      "id": "ev-60a5370eda49",
+      "title": "インボイス制度の開始",
+      "year": 2023,
+      "dateType": "開始",
+      "categories": [
+        "財政"
+      ],
+      "importance": 1,
+      "sourceUrl": "https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/invoice_about.htm"
+    },
+    {
+      "id": "ev-8e392cc8075a",
+      "title": "国民皆保険・皆年金の実現",
+      "year": 1961,
+      "dateType": "実現",
+      "categories": [
+        "社会保障"
+      ],
+      "importance": 4,
+      "sourceUrl": "https://www.mhlw.go.jp/stf/web_magazine/closeup/24.html"
+    },
+    {
+      "id": "ev-a821d5d8f7d3",
+      "title": "介護保険法の成立",
+      "year": 1997,
+      "dateType": "成立",
+      "categories": [
+        "社会保障"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://kouseikyoku.mhlw.go.jp/chugokushikoku/chiikihoukatsusuishin/000212656.pdf"
+    },
+    {
+      "id": "ev-cab0561654ca",
+      "title": "介護保険制度の開始",
+      "year": 2000,
+      "dateType": "開始",
+      "categories": [
+        "社会保障"
+      ],
+      "importance": 4,
+      "sourceUrl": "https://kouseikyoku.mhlw.go.jp/chugokushikoku/chiikihoukatsusuishin/000212656.pdf"
+    },
+    {
+      "id": "ev-58b3bc8d166d",
+      "title": "経済白書で「もはや戦後ではない」と記述",
+      "year": 1956,
+      "dateType": "刊行",
+      "categories": [
+        "日本経済史"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://www.meti.go.jp/statistics/toppage/topics/maruwakari/nenpyo.html"
+    },
+    {
+      "id": "ev-cd2c0f33cc90",
+      "title": "国民所得倍増計画の閣議決定",
+      "year": 1960,
+      "dateType": "決定",
+      "categories": [
+        "日本経済史"
+      ],
+      "importance": 4,
+      "sourceUrl": "https://www.archives.go.jp/learning/archive_collection_8/collection_1/"
+    },
+    {
+      "id": "ev-afd9bba65655",
+      "title": "大阪万国博覧会の開催",
+      "year": 1970,
+      "dateType": "開催",
+      "categories": [
+        "日本経済史"
+      ],
+      "importance": 1,
+      "sourceUrl": "https://www.archives.go.jp/exhibition/digital/high-growth/history.html"
+    },
+    {
+      "id": "ev-17bff706702e",
+      "title": "関税及び貿易に関する一般協定（GATT）の署名",
+      "year": 1947,
+      "dateType": "署名",
+      "categories": [
+        "国際経済"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.wto.org/english/tratop_e/gatt_e/task_of_signing_e.htm"
+    },
+    {
+      "id": "ev-bfb367154cd7",
+      "title": "GATTの暫定適用開始",
+      "year": 1948,
+      "dateType": "開始",
+      "categories": [
+        "国際経済"
+      ],
+      "importance": 1,
+      "sourceUrl": "https://www.wto.org/english/docs_e/legal_e/legalexplgatt1947_e.htm"
+    },
+    {
+      "id": "ev-324ddb206418",
+      "title": "WTO設立協定の調印",
+      "year": 1994,
+      "dateType": "調印",
+      "categories": [
+        "国際経済"
+      ],
+      "importance": 1,
+      "sourceUrl": "https://www.wto.org/english/thewto_e/25y_e/25ytimeline_e.htm"
+    },
+    {
+      "id": "ev-1f321bc805a8",
+      "title": "世界貿易機関（WTO）の発足",
+      "year": 1995,
+      "dateType": "発足",
+      "categories": [
+        "国際経済"
+      ],
+      "importance": 4,
+      "sourceUrl": "https://www.wto.org/english/thewto_e/25y_e/25ytimeline_e.htm"
+    },
+    {
+      "id": "ev-4cbb3b38ec98",
+      "title": "公害対策基本法の成立",
+      "year": 1967,
+      "dateType": "成立",
+      "categories": [
+        "環境・人口・現代社会"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://www.env.go.jp/council/content/i_01/000123093.pdf"
+    },
+    {
+      "id": "ev-da7163bb6446",
+      "title": "環境庁の発足",
+      "year": 1971,
+      "dateType": "発足",
+      "categories": [
+        "環境・人口・現代社会"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.env.go.jp/publication/history/50th/index.html"
+    },
+    {
+      "id": "ev-094afa719d5d",
+      "title": "環境基本法の成立",
+      "year": 1993,
+      "dateType": "成立",
+      "categories": [
+        "環境・人口・現代社会"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.env.go.jp/council/content/i_01/000123093.pdf"
+    },
+    {
+      "id": "ev-243e46d01d15",
+      "title": "京都議定書の採択",
+      "year": 1997,
+      "dateType": "採択",
+      "categories": [
+        "環境・人口・現代社会"
+      ],
+      "importance": 4,
+      "sourceUrl": "https://unfccc.int/files/press/backgrounders/application/pdf/fact_sheet_the_kyoto_protocol.pdf"
+    },
+    {
+      "id": "ev-ed08e2219113",
+      "title": "京都議定書の発効",
+      "year": 2005,
+      "dateType": "発効",
+      "categories": [
+        "環境・人口・現代社会"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://unfccc.int/files/press/backgrounders/application/pdf/fact_sheet_the_kyoto_protocol.pdf"
+    },
+    {
+      "id": "ev-60a46dd15bfb",
+      "title": "パリ協定の採択",
+      "year": 2015,
+      "dateType": "採択",
+      "categories": [
+        "環境・人口・現代社会"
+      ],
+      "importance": 4,
+      "sourceUrl": "https://unfccc.int/process-and-meetings/the-paris-agreement"
+    },
+    {
+      "id": "ev-8e95fec17755",
+      "title": "パリ協定の発効",
+      "year": 2016,
+      "dateType": "発効",
+      "categories": [
+        "環境・人口・現代社会"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://unfccc.int/process-and-meetings/the-paris-agreement"
+    },
+    {
+      "id": "ev-f206bc3a2caa",
+      "title": "生物多様性条約の名古屋議定書の採択",
+      "year": 2010,
+      "dateType": "採択",
+      "categories": [
+        "環境・人口・現代社会"
+      ],
+      "importance": 1,
+      "sourceUrl": "https://www.cbd.int/abs/nagoya-protocol/signatories"
+    },
+    {
+      "id": "ext-defense-ministry-2007",
+      "title": "防衛省の発足",
+      "year": 2007,
+      "dateType": "発足",
+      "categories": [
+        "国会・内閣・司法",
+        "国際政治"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.nids.mod.go.jp/publication/kiyo/pdf/bulletin_j10_2_4.pdf"
+    },
+    {
+      "id": "ext-postal-privatization-2007",
+      "title": "郵政民営化の実施",
+      "year": 2007,
+      "dateType": "実施",
+      "categories": [
+        "日本経済史",
+        "金融"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.jp-bank.japanpost.jp/aboutus/press/2007/abt_prs_id000161.html"
+    },
+    {
+      "id": "ext-immigration-agency-2019",
+      "title": "出入国在留管理庁の発足",
+      "year": 2019,
+      "dateType": "発足",
+      "categories": [
+        "国会・内閣・司法"
+      ],
+      "importance": 1,
+      "sourceUrl": "https://www.moj.go.jp/isa/publications/publications/missions.html"
+    }
+  ]
+}

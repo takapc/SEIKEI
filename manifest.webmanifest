@@ -1,0 +1,16 @@
+{
+  "name": "SEIKEI v1.0",
+  "short_name": "SEIKEI",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5f7fb",
+  "theme_color": "#11182b",
+  "icons": [
+    {
+      "src": "./assets/seikei-icon.png",
+      "sizes": "1254x1254",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
