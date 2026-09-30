@@ -1,0 +1,5 @@
+dashboard-state.json
+dashboard-state.json.*.tmp
+dashboard-test-*.json
+node_modules/
+*.log
