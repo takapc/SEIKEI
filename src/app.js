@@ -3,6 +3,7 @@ import { addAnswer, clearHistory, loadState, saveState } from './storage.js';
 import { LEVELS, levelLabel } from './levels.js';
 
 const root = document.querySelector('#app');
+const VERSION = '1.0.1';
 const response = await fetch(new URL('../data/reviewed.json', import.meta.url));
 if (!response.ok) throw new Error('出題データを読み込めませんでした');
 const data = await response.json();
@@ -24,13 +25,13 @@ const cycleProgress = () => saved.cycles[session?.slot];
 const completedCycle = () => cycleProgress()?.cursor === cycleProgress()?.deck.length;
 
 function nav(title, eyebrow = '') {
-  return `<header class="topbar"><button class="back" data-action="home" aria-label="ホームに戻る">←</button><div><small>${eyebrow}</small><h1>${title}</h1></div><span class="version">v1.0</span></header>`;
+  return `<header class="topbar"><button class="back" data-action="home" aria-label="ホームに戻る">←</button><div><small>${eyebrow}</small><h1>${title}</h1></div><span class="version">v${VERSION}</span></header>`;
 }
 
 function home() {
   const available = eligible().length;
   return `<main class="shell home">
-    <header class="brand"><img class="brand-mark" src="./assets/seikei-icon.png" alt="" /><div class="brand-copy"><span>PUBLIC & ECONOMICS</span><h1>SEIKEI <small>v1.0</small></h1></div></header>
+    <header class="brand"><img class="brand-mark" src="./assets/seikei-icon.png" alt="" /><div class="brand-copy"><span>PUBLIC & ECONOMICS</span><h1>SEIKEI <small>v${VERSION}</small></h1></div></header>
     <section class="hero"><p class="eyebrow">YEAR × ORDER</p><h2>出来事を、<br><em>時間の流れ</em>で覚える。</h2><p>「公共」「政治・経済」の重要事項。<br>年号と前後関係を、すき間時間に。</p></section>
     <section class="mode-grid" aria-label="学習モード">
       <button class="mode-card year" data-action="start-year"><span class="mode-icon">01</span><span class="mode-body"><strong>年号暗記</strong><small>出来事から西暦4桁を答える</small></span><span class="arrow">↗</span></button>
@@ -117,8 +118,8 @@ function yearQuiz() {
   const correct = submitted && checkYearAnswer(input, question);
   return `<main class="shell quiz-shell">${nav('年号暗記', session.review?'REVIEW':'PRACTICE')}
     <div class="quiz-meta"><span>${session.review?'間違えたものを復習':'出来事を見て、西暦を入力'}</span><span>${levelLabel(question.importance)} · ${cycleProgress().cursor}/${cycleProgress().deck.length}</span></div>
-    <section class="question-card"><span class="question-label">この出来事は何年？</span><h2>${esc(question.title)}</h2><div class="chips">${question.categories.map(c=>`<span>${esc(c)}</span>`).join('')}</div></section>
-    <section class="answer-zone"><div class="digits" aria-label="入力した西暦">${[0,1,2,3].map(i=>`<span class="${input[i]?'filled':''}">${input[i] || '·'}</span>`).join('')}</div><div class="answer-feedback" aria-live="polite">${submitted ? `<strong class="${correct?'positive':'negative'}">${correct?'正解！':'おしい！'}</strong><span>正しい西暦は <b>${question.year}年</b></span><a href="${esc(question.sourceUrl)}" target="_blank" rel="noopener noreferrer">確認資料 ↗</a>` : `<span>4桁で答えてな</span>`}</div></section>
+    <section class="question-card ${correct ? 'answer-correct' : ''}"><span class="question-label">この出来事は何年？</span><h2>${esc(question.title)}</h2><div class="chips">${question.categories.map(c=>`<span>${esc(c)}</span>`).join('')}</div></section>
+    <section class="answer-zone"><div class="digits" aria-label="入力した西暦">${[0,1,2,3].map(i=>`<span class="${input[i]?'filled':''}">${input[i] || '·'}</span>`).join('')}</div><div class="answer-feedback" aria-live="polite">${submitted ? `<strong class="${correct?'positive success-feedback':'negative'}">${correct?'正解！':'おしい！'}</strong><span>正しい西暦は <b>${question.year}年</b></span><a href="${esc(question.sourceUrl)}" target="_blank" rel="noopener noreferrer">確認資料 ↗</a>` : `<span>4桁で答えてな</span>`}</div></section>
     <div class="keypad" aria-label="数字キー">${['1','2','3','4','5','6','7','8','9','消去','0','⌫'].map(key=>`<button data-key="${key}" ${submitted?'disabled':''} aria-label="${key==='⌫'?'一文字削除':key}">${key}</button>`).join('')}</div>
     <div class="quiz-action">${submitted ? `<button class="primary" data-action="next">${completedCycle()?'もう一周':'次の問題'} <span>→</span></button>` : `<button class="primary" data-action="submit-year" ${input.length!==4?'disabled':''}>回答する <span>→</span></button>`}</div>
   </main>`;
@@ -132,9 +133,20 @@ function orderQuiz() {
     <div class="quiz-meta"><span>${session.review?'間違えた出来事を含む新しい問題':'出来事を古い順に'}</span><span>${cycleProgress().cursor}/${cycleProgress().deck.length} 問目</span></div>
     <div class="order-instruction"><span class="timeline-dot"></span><p>上が古く、下が新しい順に並べてな。<br><small>≡ をドラッグ、または矢印で移動</small></p></div>
     <div class="order-list">${question.map((event,index)=>`<article class="order-card" data-index="${index}"><span class="order-number">${String(index+1).padStart(2,'0')}</span><span class="order-title">${esc(event.title)}</span><div class="order-controls"><button data-move="up" data-index="${index}" ${submitted||index===0?'disabled':''} aria-label="${esc(event.title)}を上へ">↑</button><button data-move="down" data-index="${index}" ${submitted||index===question.length-1?'disabled':''} aria-label="${esc(event.title)}を下へ">↓</button></div><button class="drag-handle" data-drag="${index}" ${submitted?'disabled':''} aria-label="${esc(event.title)}をドラッグ">≡</button></article>`).join('')}</div>
-    <div class="order-result" aria-live="polite">${submitted ? `<div class="result-banner ${wrong.length?'incorrect':'correct'}"><strong>${wrong.length?'順番を確認しよう':'正解！'}</strong><span>${wrong.length?`${wrong.length}件の位置が違っていたで`:'全部合ってるで'}</span></div><h3>正しい年表</h3><ol class="timeline">${ordered.map(event=>`<li><strong>${event.year}</strong><span>${esc(event.title)}</span></li>`).join('')}</ol>` : ''}</div>
+    <div class="order-result" aria-live="polite">${submitted ? `<div class="result-banner ${wrong.length?'incorrect':'correct'}"><strong class="${wrong.length ? '' : 'success-feedback'}">${wrong.length?'順番を確認しよう':'正解！'}</strong><span>${wrong.length?`${wrong.length}件の位置が違っていたで`:'全部合ってるで'}</span></div><h3>正しい年表</h3><ol class="timeline">${ordered.map(event=>`<li><strong>${event.year}</strong><span>${esc(event.title)}</span></li>`).join('')}</ol>` : ''}</div>
     <div class="quiz-action">${submitted ? `<button class="primary" data-action="next">${completedCycle()?'もう一周':'次の問題'} <span>→</span></button>` : `<button class="primary" data-action="submit-order">この順番で回答 <span>→</span></button>`}</div>
   </main>`;
+}
+
+function updateYearInput() {
+  // Keep the tapped controls mounted: replacing the whole page while typing
+  // can interrupt touch activation and loses the keyboard focus on iOS.
+  root.querySelectorAll('.digits span').forEach((digit, index) => {
+    digit.textContent = input[index] || '·';
+    digit.classList.toggle('filled', Boolean(input[index]));
+  });
+  const submit = root.querySelector('[data-action="submit-year"]');
+  if (submit) submit.disabled = input.length !== 4;
 }
 
 function render() {
@@ -169,7 +181,7 @@ root.addEventListener('click', event => {
   if (button.dataset.key && !submitted) {
     const key=button.dataset.key;
     input=key==='消去'?'':key==='⌫'?input.slice(0,-1):input.length<4?input+key:input;
-    render();
+    updateYearInput();
   }
   if (button.dataset.move && !submitted) {
     const from=Number(button.dataset.index), to=from+(button.dataset.move==='up'?-1:1);
@@ -192,10 +204,22 @@ root.addEventListener('change', event => {
 });
 
 document.addEventListener('keydown', event => {
-  if (view !== 'year' || submitted || !question) return;
-  if (/^[0-9]$/.test(event.key) && input.length<4) { input+=event.key; render(); }
-  if (event.key==='Backspace') { input=input.slice(0,-1); render(); }
-  if (event.key==='Enter' && input.length===4) root.querySelector('[data-action="submit-year"]')?.click();
+  if (view !== 'year' || submitted || !question || event.isComposing
+    || event.ctrlKey || event.metaKey || event.altKey) return;
+  if (/^[0-9]$/.test(event.key)) {
+    event.preventDefault();
+    if (input.length < 4) input += event.key;
+    updateYearInput();
+  } else if (event.key === 'Backspace') {
+    event.preventDefault();
+    input = input.slice(0, -1);
+    updateYearInput();
+  } else if (event.key === 'Enter') {
+    // Prevent the focused keypad button or the newly rendered next button
+    // from receiving the browser's additional native keyboard click.
+    event.preventDefault();
+    if (input.length === 4) root.querySelector('[data-action="submit-year"]')?.click();
+  }
 });
 
 function attachDrag() {

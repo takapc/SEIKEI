@@ -7,3 +7,13 @@
 @media(min-width:700px){.importance-list{grid-template-columns:repeat(4,minmax(0,1fr))}}
 
 .brand-mark{display:block;object-fit:cover}
+
+button{touch-action:manipulation}
+/* Touch feedback must not depend on the sticky :active state in iOS. */
+@media(hover:none){.keypad button:active{background:#fff}}
+.answer-correct{animation:correct-card .55s ease-out}
+.success-feedback{display:inline-flex;align-items:center;gap:6px}
+.success-feedback::before{content:'✓';display:inline-grid;place-items:center;width:20px;height:20px;border-radius:50%;background:#16aa75;color:#fff;font-size:12px;animation:correct-check .45s ease-out}
+@keyframes correct-check{0%{opacity:0;transform:scale(.6)}60%{opacity:1;transform:scale(1.15)}100%{transform:scale(1)}}
+@keyframes correct-card{0%{box-shadow:0 0 0 4px #16aa7540}100%{box-shadow:0 13px 32px #1937590c}}
+@media(prefers-reduced-motion:reduce){.answer-correct,.success-feedback::before{animation:none}}
