@@ -1107,6 +1107,327 @@
       ],
       "importance": 1,
       "sourceUrl": "https://www.moj.go.jp/isa/publications/publications/missions.html"
+    },
+    {
+      "id": "ext-arab-israeli-war-1948",
+      "title": "第一次中東戦争の勃発",
+      "year": 1948,
+      "dateType": "勃発",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://history.state.gov/milestones/1945-1952/arab-israeli-war"
+    },
+    {
+      "id": "ext-suez-crisis-1956",
+      "title": "第二次中東戦争（スエズ戦争）の勃発",
+      "year": 1956,
+      "dateType": "勃発",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://history.state.gov/milestones/1953-1960/suez"
+    },
+    {
+      "id": "ext-arab-israeli-war-1967",
+      "title": "第三次中東戦争（六日戦争）の勃発",
+      "year": 1967,
+      "dateType": "勃発",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://history.state.gov/milestones/1961-1968/arab-israeli-war-1967"
+    },
+    {
+      "id": "ext-arab-israeli-war-1973",
+      "title": "第四次中東戦争の勃発",
+      "year": 1973,
+      "dateType": "勃発",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://history.state.gov/milestones/1969-1976/arab-israeli-war-1973"
+    },
+    {
+      "id": "ev-23a4f4f0cb61",
+      "title": "ベトナム戦争の終結",
+      "year": 1975,
+      "dateType": "終結",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://history.state.gov/historicaldocuments/frus1969-76v10/pressrelease"
+    },
+    {
+      "id": "ev-ba3522ff494e",
+      "title": "湾岸戦争の開戦",
+      "year": 1991,
+      "dateType": "開戦",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://history.state.gov/milestones/1989-1992/gulf-war"
+    },
+    {
+      "id": "ev-42e3eafbc977",
+      "title": "イラク戦争の開戦",
+      "year": 2003,
+      "dateType": "開戦",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://www.un.org/sg/en/content/former-secretary-general/statements/2003-03-20/statement-the-secretary-general-iraq"
+    },
+    {
+      "id": "ext-russian-invasion-ukraine-2022",
+      "title": "ロシアによるウクライナへの全面侵攻開始",
+      "year": 2022,
+      "dateType": "開始",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://www.un.org/sg/en/content/sg/statements/2022-02-24/statement-the-secretary-general-ukraine"
+    },
+    {
+      "id": "ev-852df182a2b2",
+      "title": "米同時多発テロ事件",
+      "year": 2001,
+      "dateType": "発生",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 4,
+      "sourceUrl": "https://www.911memorial.org/learn/resources/911-primer/module-1-events-day"
+    },
+    {
+      "id": "ext-london-bombings-2005",
+      "title": "ロンドン同時多発テロ事件",
+      "year": 2005,
+      "dateType": "発生",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 1,
+      "sourceUrl": "https://www.gov.uk/government/publications/report-of-the-official-account-of-the-bombings-in-london-on-7th-july-2005"
+    },
+    {
+      "id": "ext-paris-attacks-2015",
+      "title": "パリ同時多発テロ事件",
+      "year": 2015,
+      "dateType": "発生",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.elysee.fr/emmanuel-macron/2025/11/13/commemoration-des-10-ans-des-attentats-du-13-novembre-2015"
+    },
+    {
+      "id": "ext-bastille-1789",
+      "title": "バスティーユ牢獄の襲撃（フランス革命）",
+      "year": 1789,
+      "dateType": "襲撃",
+      "categories": [
+        "政治原理・民主政治",
+        "国際政治"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.elysee.fr/la-presidence/la-fete-nationale-du-14-juillet"
+    },
+    {
+      "id": "ev-2ff409eba029",
+      "title": "フランス二月革命",
+      "year": 1848,
+      "dateType": "革命",
+      "categories": [
+        "政治原理・民主政治",
+        "国際政治"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/monarchie-de-juillet/revolution-de-fevrier"
+    },
+    {
+      "id": "ext-russian-october-revolution-1917",
+      "title": "ロシア十月革命",
+      "year": 1917,
+      "dateType": "革命",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://history.state.gov/countries/russia"
+    },
+    {
+      "id": "ext-prc-1949",
+      "title": "中華人民共和国の成立",
+      "year": 1949,
+      "dateType": "成立",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://history.state.gov/milestones/1945-1952/chinese-rev"
+    },
+    {
+      "id": "ext-cuban-revolution-1959",
+      "title": "キューバ革命によるバティスタ政権の崩壊",
+      "year": 1959,
+      "dateType": "崩壊",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://history.state.gov/historicaldocuments/frus1958-60v06/d217"
+    },
+    {
+      "id": "ext-iranian-revolution-1979",
+      "title": "イラン革命による王政の崩壊",
+      "year": 1979,
+      "dateType": "崩壊",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://history.state.gov/historicaldocuments/frus1977-80v11p1/d281"
+    },
+    {
+      "id": "ev-a862f2712a85",
+      "title": "部分的核実験禁止条約（PTBT）の署名",
+      "year": 1963,
+      "dateType": "署名",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://history.state.gov/milestones/1961-1968/limited-ban"
+    },
+    {
+      "id": "ev-be32d6aceeb1",
+      "title": "核兵器不拡散条約（NPT）の署名開放",
+      "year": 1968,
+      "dateType": "署名開放",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://legal.un.org/avl/HA/tnpt/tnpt.html"
+    },
+    {
+      "id": "ext-salt-i-1972",
+      "title": "第1次戦略兵器制限交渉（SALT I）暫定協定の署名",
+      "year": 1972,
+      "dateType": "署名",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://history.state.gov/milestones/1969-1976/salt"
+    },
+    {
+      "id": "ext-salt-ii-1979",
+      "title": "第2次戦略兵器制限条約（SALT II）の署名",
+      "year": 1979,
+      "dateType": "署名",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 1,
+      "sourceUrl": "https://history.state.gov/milestones/1969-1976/salt"
+    },
+    {
+      "id": "ext-inf-1987",
+      "title": "中距離核戦力全廃条約（INF条約）の署名",
+      "year": 1987,
+      "dateType": "署名",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://2009-2017.state.gov/t/avc/trty/102360.htm"
+    },
+    {
+      "id": "ext-ottawa-treaty-1997",
+      "title": "対人地雷禁止条約（オタワ条約）の署名開放",
+      "year": 1997,
+      "dateType": "署名開放",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://legal.un.org/avl/ha/cpusptam/cpusptam.html"
+    },
+    {
+      "id": "ev-78910454a332",
+      "title": "核兵器禁止条約（TPNW）の採択",
+      "year": 2017,
+      "dateType": "採択",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://treaties.un.org/pages/ViewDetails.aspx?src=TREATY&mtdsg_no=XXVI-9&chapter=26&clang=_en"
+    },
+    {
+      "id": "ext-tpnw-entry-2021",
+      "title": "核兵器禁止条約（TPNW）の発効",
+      "year": 2021,
+      "dateType": "発効",
+      "categories": [
+        "国際政治"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://treaties.un.org/pages/ViewDetails.aspx?src=TREATY&mtdsg_no=XXVI-9&chapter=26&clang=_en"
+    },
+    {
+      "id": "ext-gatt-kennedy-round-1964",
+      "title": "GATTケネディ・ラウンド交渉開始",
+      "year": 1964,
+      "dateType": "交渉開始",
+      "categories": [
+        "国際経済"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.wto.org/english/thewto_e/whatis_e/tif_e/fact4_e.htm"
+    },
+    {
+      "id": "ext-gatt-tokyo-round-1973",
+      "title": "GATT東京ラウンド交渉開始",
+      "year": 1973,
+      "dateType": "交渉開始",
+      "categories": [
+        "国際経済"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.wto.org/english/thewto_e/whatis_e/tif_e/fact4_e.htm"
+    },
+    {
+      "id": "ev-a927d10cb2cc",
+      "title": "GATTウルグアイ・ラウンド交渉開始",
+      "year": 1986,
+      "dateType": "交渉開始",
+      "categories": [
+        "国際経済"
+      ],
+      "importance": 3,
+      "sourceUrl": "https://www.wto.org/english/thewto_e/whatis_e/tif_e/fact5_e.htm"
+    },
+    {
+      "id": "ext-wto-doha-round-2001",
+      "title": "WTOドーハ・ラウンド交渉開始",
+      "year": 2001,
+      "dateType": "交渉開始",
+      "categories": [
+        "国際経済"
+      ],
+      "importance": 2,
+      "sourceUrl": "https://www.wto.org/english/thewto_e/whatis_e/tif_e/doha1_e.htm"
     }
   ]
 }

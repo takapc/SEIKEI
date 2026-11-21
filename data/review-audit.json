@@ -1,7 +1,7 @@
 {
   "candidateCount": 291,
-  "includedCount": 97,
-  "excludedCount": 197,
+  "includedCount": 126,
+  "excludedCount": 188,
   "addedFromLinkedReferences": [
     {
       "id": "ev-1c3ea201f9fd",
@@ -293,6 +293,13 @@
       "year": 1999,
       "reason": "「流通開始」だけでは電子決済と現金の区別が曖昧なため、別の出来事として明示。",
       "sourceUrl": "https://european-union.europa.eu/institutions-law-budget/euro/history-and-purpose_en"
+    },
+    {
+      "original": "核兵器不拡散条約（NPT）の採択",
+      "corrected": "核兵器不拡散条約（NPT）の署名開放",
+      "year": 1968,
+      "reason": "国連総会決議の採択と条約の署名開放を区別し、条約が署名開放された年を問う。",
+      "sourceUrl": "https://legal.un.org/avl/HA/tnpt/tnpt.html"
     }
   ],
   "levelPolicy": "4=最優先、3=必須、2=標準、1=補強。学習上の優先度は編集判断であり、史実の検証とは別。旧3の中で細かな条約・制度の区別が必要な項目は下位へ移した。",
@@ -568,6 +575,182 @@
       "to": 4
     }
   ],
+  "addedInternationalEvents": [
+    {
+      "id": "ext-arab-israeli-war-1948",
+      "title": "第一次中東戦争の勃発",
+      "year": 1948,
+      "sourceUrl": "https://history.state.gov/milestones/1945-1952/arab-israeli-war"
+    },
+    {
+      "id": "ext-suez-crisis-1956",
+      "title": "第二次中東戦争（スエズ戦争）の勃発",
+      "year": 1956,
+      "sourceUrl": "https://history.state.gov/milestones/1953-1960/suez"
+    },
+    {
+      "id": "ext-arab-israeli-war-1967",
+      "title": "第三次中東戦争（六日戦争）の勃発",
+      "year": 1967,
+      "sourceUrl": "https://history.state.gov/milestones/1961-1968/arab-israeli-war-1967"
+    },
+    {
+      "id": "ext-arab-israeli-war-1973",
+      "title": "第四次中東戦争の勃発",
+      "year": 1973,
+      "sourceUrl": "https://history.state.gov/milestones/1969-1976/arab-israeli-war-1973"
+    },
+    {
+      "id": "ev-23a4f4f0cb61",
+      "title": "ベトナム戦争の終結",
+      "year": 1975,
+      "sourceUrl": "https://history.state.gov/historicaldocuments/frus1969-76v10/pressrelease"
+    },
+    {
+      "id": "ev-ba3522ff494e",
+      "title": "湾岸戦争の開戦",
+      "year": 1991,
+      "sourceUrl": "https://history.state.gov/milestones/1989-1992/gulf-war"
+    },
+    {
+      "id": "ev-42e3eafbc977",
+      "title": "イラク戦争の開戦",
+      "year": 2003,
+      "sourceUrl": "https://www.un.org/sg/en/content/former-secretary-general/statements/2003-03-20/statement-the-secretary-general-iraq"
+    },
+    {
+      "id": "ext-russian-invasion-ukraine-2022",
+      "title": "ロシアによるウクライナへの全面侵攻開始",
+      "year": 2022,
+      "sourceUrl": "https://www.un.org/sg/en/content/sg/statements/2022-02-24/statement-the-secretary-general-ukraine"
+    },
+    {
+      "id": "ev-852df182a2b2",
+      "title": "米同時多発テロ事件",
+      "year": 2001,
+      "sourceUrl": "https://www.911memorial.org/learn/resources/911-primer/module-1-events-day"
+    },
+    {
+      "id": "ext-london-bombings-2005",
+      "title": "ロンドン同時多発テロ事件",
+      "year": 2005,
+      "sourceUrl": "https://www.gov.uk/government/publications/report-of-the-official-account-of-the-bombings-in-london-on-7th-july-2005"
+    },
+    {
+      "id": "ext-paris-attacks-2015",
+      "title": "パリ同時多発テロ事件",
+      "year": 2015,
+      "sourceUrl": "https://www.elysee.fr/emmanuel-macron/2025/11/13/commemoration-des-10-ans-des-attentats-du-13-novembre-2015"
+    },
+    {
+      "id": "ext-bastille-1789",
+      "title": "バスティーユ牢獄の襲撃（フランス革命）",
+      "year": 1789,
+      "sourceUrl": "https://www.elysee.fr/la-presidence/la-fete-nationale-du-14-juillet"
+    },
+    {
+      "id": "ev-2ff409eba029",
+      "title": "フランス二月革命",
+      "year": 1848,
+      "sourceUrl": "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/monarchie-de-juillet/revolution-de-fevrier"
+    },
+    {
+      "id": "ext-russian-october-revolution-1917",
+      "title": "ロシア十月革命",
+      "year": 1917,
+      "sourceUrl": "https://history.state.gov/countries/russia"
+    },
+    {
+      "id": "ext-prc-1949",
+      "title": "中華人民共和国の成立",
+      "year": 1949,
+      "sourceUrl": "https://history.state.gov/milestones/1945-1952/chinese-rev"
+    },
+    {
+      "id": "ext-cuban-revolution-1959",
+      "title": "キューバ革命によるバティスタ政権の崩壊",
+      "year": 1959,
+      "sourceUrl": "https://history.state.gov/historicaldocuments/frus1958-60v06/d217"
+    },
+    {
+      "id": "ext-iranian-revolution-1979",
+      "title": "イラン革命による王政の崩壊",
+      "year": 1979,
+      "sourceUrl": "https://history.state.gov/historicaldocuments/frus1977-80v11p1/d281"
+    },
+    {
+      "id": "ev-a862f2712a85",
+      "title": "部分的核実験禁止条約（PTBT）の署名",
+      "year": 1963,
+      "sourceUrl": "https://history.state.gov/milestones/1961-1968/limited-ban"
+    },
+    {
+      "id": "ev-be32d6aceeb1",
+      "title": "核兵器不拡散条約（NPT）の署名開放",
+      "year": 1968,
+      "sourceUrl": "https://legal.un.org/avl/HA/tnpt/tnpt.html"
+    },
+    {
+      "id": "ext-salt-i-1972",
+      "title": "第1次戦略兵器制限交渉（SALT I）暫定協定の署名",
+      "year": 1972,
+      "sourceUrl": "https://history.state.gov/milestones/1969-1976/salt"
+    },
+    {
+      "id": "ext-salt-ii-1979",
+      "title": "第2次戦略兵器制限条約（SALT II）の署名",
+      "year": 1979,
+      "sourceUrl": "https://history.state.gov/milestones/1969-1976/salt"
+    },
+    {
+      "id": "ext-inf-1987",
+      "title": "中距離核戦力全廃条約（INF条約）の署名",
+      "year": 1987,
+      "sourceUrl": "https://2009-2017.state.gov/t/avc/trty/102360.htm"
+    },
+    {
+      "id": "ext-ottawa-treaty-1997",
+      "title": "対人地雷禁止条約（オタワ条約）の署名開放",
+      "year": 1997,
+      "sourceUrl": "https://legal.un.org/avl/ha/cpusptam/cpusptam.html"
+    },
+    {
+      "id": "ev-78910454a332",
+      "title": "核兵器禁止条約（TPNW）の採択",
+      "year": 2017,
+      "sourceUrl": "https://treaties.un.org/pages/ViewDetails.aspx?src=TREATY&mtdsg_no=XXVI-9&chapter=26&clang=_en"
+    },
+    {
+      "id": "ext-tpnw-entry-2021",
+      "title": "核兵器禁止条約（TPNW）の発効",
+      "year": 2021,
+      "sourceUrl": "https://treaties.un.org/pages/ViewDetails.aspx?src=TREATY&mtdsg_no=XXVI-9&chapter=26&clang=_en"
+    },
+    {
+      "id": "ext-gatt-kennedy-round-1964",
+      "title": "GATTケネディ・ラウンド交渉開始",
+      "year": 1964,
+      "sourceUrl": "https://www.wto.org/english/thewto_e/whatis_e/tif_e/fact4_e.htm"
+    },
+    {
+      "id": "ext-gatt-tokyo-round-1973",
+      "title": "GATT東京ラウンド交渉開始",
+      "year": 1973,
+      "sourceUrl": "https://www.wto.org/english/thewto_e/whatis_e/tif_e/fact4_e.htm"
+    },
+    {
+      "id": "ev-a927d10cb2cc",
+      "title": "GATTウルグアイ・ラウンド交渉開始",
+      "year": 1986,
+      "sourceUrl": "https://www.wto.org/english/thewto_e/whatis_e/tif_e/fact5_e.htm"
+    },
+    {
+      "id": "ext-wto-doha-round-2001",
+      "title": "WTOドーハ・ラウンド交渉開始",
+      "year": 2001,
+      "sourceUrl": "https://www.wto.org/english/thewto_e/whatis_e/tif_e/doha1_e.htm"
+    }
+  ],
   "excluded": [
     {
       "id": "ev-8609e42767b2",
@@ -585,12 +768,6 @@
       "id": "ev-bbb85c006f38",
       "title": "リカード『経済学および課税の原理』の刊行",
       "year": 1817,
-      "reason": "個別の一次資料による名称・年・出来事の意味の照合を完了できていないため保留。"
-    },
-    {
-      "id": "ev-2ff409eba029",
-      "title": "フランス二月革命",
-      "year": 1848,
       "reason": "個別の一次資料による名称・年・出来事の意味の照合を完了できていないため保留。"
     },
     {
@@ -1062,12 +1239,6 @@
       "reason": "個別の一次資料による名称・年・出来事の意味の照合を完了できていないため保留。"
     },
     {
-      "id": "ev-a862f2712a85",
-      "title": "部分的核実験禁止条約の調印",
-      "year": 1963,
-      "reason": "個別の一次資料による名称・年・出来事の意味の照合を完了できていないため保留。"
-    },
-    {
       "id": "ev-770e7be0b551",
       "title": "老人福祉法の成立",
       "year": 1963,
@@ -1119,12 +1290,6 @@
       "id": "ev-af45a2c88b8f",
       "title": "東南アジア諸国連合（ASEAN）の設立",
       "year": 1967,
-      "reason": "個別の一次資料による名称・年・出来事の意味の照合を完了できていないため保留。"
-    },
-    {
-      "id": "ev-be32d6aceeb1",
-      "title": "核兵器不拡散条約（NPT）の採択",
-      "year": 1968,
       "reason": "個別の一次資料による名称・年・出来事の意味の照合を完了できていないため保留。"
     },
     {
@@ -1224,12 +1389,6 @@
       "reason": "個別の一次資料による名称・年・出来事の意味の照合を完了できていないため保留。"
     },
     {
-      "id": "ev-23a4f4f0cb61",
-      "title": "ベトナム戦争の終結",
-      "year": 1975,
-      "reason": "個別の一次資料による名称・年・出来事の意味の照合を完了できていないため保留。"
-    },
-    {
       "id": "ev-036fb9eb9216",
       "title": "第1回先進国首脳会議（サミット）",
       "year": 1975,
@@ -1314,12 +1473,6 @@
       "reason": "個別の一次資料による名称・年・出来事の意味の照合を完了できていないため保留。"
     },
     {
-      "id": "ev-a927d10cb2cc",
-      "title": "GATTウルグアイ・ラウンド交渉開始",
-      "year": 1986,
-      "reason": "個別の一次資料による名称・年・出来事の意味の照合を完了できていないため保留。"
-    },
-    {
       "id": "ev-5c62a7ae218d",
       "title": "バブル景気の始まり（景気基準日付）",
       "year": 1986,
@@ -1388,12 +1541,6 @@
     {
       "id": "ev-aa8ae7140620",
       "title": "育児休業法の成立",
-      "year": 1991,
-      "reason": "個別の一次資料による名称・年・出来事の意味の照合を完了できていないため保留。"
-    },
-    {
-      "id": "ev-ba3522ff494e",
-      "title": "湾岸戦争の開戦",
       "year": 1991,
       "reason": "個別の一次資料による名称・年・出来事の意味の照合を完了できていないため保留。"
     },
@@ -1548,12 +1695,6 @@
       "reason": "個別の一次資料による名称・年・出来事の意味の照合を完了できていないため保留。"
     },
     {
-      "id": "ev-852df182a2b2",
-      "title": "米同時多発テロ事件",
-      "year": 2001,
-      "reason": "個別の一次資料による名称・年・出来事の意味の照合を完了できていないため保留。"
-    },
-    {
       "id": "ev-c4d404ad1c97",
       "title": "ハンセン病国家賠償訴訟の熊本地裁判決",
       "year": 2001,
@@ -1575,12 +1716,6 @@
       "id": "ev-cc01ac135b65",
       "title": "持続可能な開発に関する世界首脳会議（ヨハネスブルク）",
       "year": 2002,
-      "reason": "個別の一次資料による名称・年・出来事の意味の照合を完了できていないため保留。"
-    },
-    {
-      "id": "ev-42e3eafbc977",
-      "title": "イラク戦争の開戦",
-      "year": 2003,
       "reason": "個別の一次資料による名称・年・出来事の意味の照合を完了できていないため保留。"
     },
     {
@@ -1695,12 +1830,6 @@
       "id": "ev-f8bdf6bdd79c",
       "title": "日本銀行のマイナス金利政策導入",
       "year": 2016,
-      "reason": "個別の一次資料による名称・年・出来事の意味の照合を完了できていないため保留。"
-    },
-    {
-      "id": "ev-78910454a332",
-      "title": "核兵器禁止条約の採択",
-      "year": 2017,
       "reason": "個別の一次資料による名称・年・出来事の意味の照合を完了できていないため保留。"
     },
     {
