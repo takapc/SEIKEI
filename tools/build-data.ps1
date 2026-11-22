@@ -276,7 +276,6 @@ $extraEvents = @(
   [ordered]@{ id='ext-immigration-agency-2019'; title='出入国在留管理庁の発足'; year=2019; dateType='発足'; categories=@('国会・内閣・司法'); importance=1; sourceUrl=$sources.immigration }
 )
 $events = @($events) + $extraEvents
-$usedIds = @($events | ForEach-Object id)
 $levelChanges = @($events | ForEach-Object {
   $published = $_
   $original = $candidate.events | Where-Object id -eq $published.id | Select-Object -First 1
@@ -284,6 +283,52 @@ $levelChanges = @($events | ForEach-Object {
     [ordered]@{ id=$published.id; title=$published.title; from=$original.importance; to=$published.importance }
   }
 })
+# Individually verified entries: id | title | year | date type | importance | categories | evidence.
+$internationalEvents = @'
+ext-arab-israeli-war-1948|第一次中東戦争の勃発|1948|勃発|3|国際政治|https://history.state.gov/milestones/1945-1952/arab-israeli-war
+ext-suez-crisis-1956|第二次中東戦争（スエズ戦争）の勃発|1956|勃発|2|国際政治|https://history.state.gov/milestones/1953-1960/suez
+ext-arab-israeli-war-1967|第三次中東戦争（六日戦争）の勃発|1967|勃発|2|国際政治|https://history.state.gov/milestones/1961-1968/arab-israeli-war-1967
+ext-arab-israeli-war-1973|第四次中東戦争の勃発|1973|勃発|3|国際政治|https://history.state.gov/milestones/1969-1976/arab-israeli-war-1973
+ev-23a4f4f0cb61|ベトナム戦争の終結|1975|終結|3|国際政治|https://history.state.gov/historicaldocuments/frus1969-76v10/pressrelease
+ev-ba3522ff494e|湾岸戦争の開戦|1991|開戦|3|国際政治|https://history.state.gov/milestones/1989-1992/gulf-war
+ev-42e3eafbc977|イラク戦争の開戦|2003|開戦|3|国際政治|https://www.un.org/sg/en/content/former-secretary-general/statements/2003-03-20/statement-the-secretary-general-iraq
+ext-russian-invasion-ukraine-2022|ロシアによるウクライナへの全面侵攻開始|2022|開始|3|国際政治|https://www.un.org/sg/en/content/sg/statements/2022-02-24/statement-the-secretary-general-ukraine
+ev-852df182a2b2|米同時多発テロ事件|2001|発生|4|国際政治|https://www.911memorial.org/learn/resources/911-primer/module-1-events-day
+ext-london-bombings-2005|ロンドン同時多発テロ事件|2005|発生|1|国際政治|https://www.gov.uk/government/publications/report-of-the-official-account-of-the-bombings-in-london-on-7th-july-2005
+ext-paris-attacks-2015|パリ同時多発テロ事件|2015|発生|2|国際政治|https://www.elysee.fr/emmanuel-macron/2025/11/13/commemoration-des-10-ans-des-attentats-du-13-novembre-2015
+ext-bastille-1789|バスティーユ牢獄の襲撃（フランス革命）|1789|襲撃|2|政治原理・民主政治,国際政治|https://www.elysee.fr/la-presidence/la-fete-nationale-du-14-juillet
+ev-2ff409eba029|フランス二月革命|1848|革命|2|政治原理・民主政治,国際政治|https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/monarchie-de-juillet/revolution-de-fevrier
+ext-russian-october-revolution-1917|ロシア十月革命|1917|革命|3|国際政治|https://history.state.gov/countries/russia
+ext-prc-1949|中華人民共和国の成立|1949|成立|3|国際政治|https://history.state.gov/milestones/1945-1952/chinese-rev
+ext-cuban-revolution-1959|キューバ革命によるバティスタ政権の崩壊|1959|崩壊|2|国際政治|https://history.state.gov/historicaldocuments/frus1958-60v06/d217
+ext-iranian-revolution-1979|イラン革命による王政の崩壊|1979|崩壊|2|国際政治|https://history.state.gov/historicaldocuments/frus1977-80v11p1/d281
+ev-a862f2712a85|部分的核実験禁止条約（PTBT）の署名|1963|署名|2|国際政治|https://history.state.gov/milestones/1961-1968/limited-ban
+ev-be32d6aceeb1|核兵器不拡散条約（NPT）の署名開放|1968|署名開放|3|国際政治|https://legal.un.org/avl/HA/tnpt/tnpt.html
+ext-salt-i-1972|第1次戦略兵器制限交渉（SALT I）暫定協定の署名|1972|署名|2|国際政治|https://history.state.gov/milestones/1969-1976/salt
+ext-salt-ii-1979|第2次戦略兵器制限条約（SALT II）の署名|1979|署名|1|国際政治|https://history.state.gov/milestones/1969-1976/salt
+ext-inf-1987|中距離核戦力全廃条約（INF条約）の署名|1987|署名|2|国際政治|https://2009-2017.state.gov/t/avc/trty/102360.htm
+ext-ottawa-treaty-1997|対人地雷禁止条約（オタワ条約）の署名開放|1997|署名開放|2|国際政治|https://legal.un.org/avl/ha/cpusptam/cpusptam.html
+ev-78910454a332|核兵器禁止条約（TPNW）の採択|2017|採択|3|国際政治|https://treaties.un.org/pages/ViewDetails.aspx?src=TREATY&mtdsg_no=XXVI-9&chapter=26&clang=_en
+ext-tpnw-entry-2021|核兵器禁止条約（TPNW）の発効|2021|発効|2|国際政治|https://treaties.un.org/pages/ViewDetails.aspx?src=TREATY&mtdsg_no=XXVI-9&chapter=26&clang=_en
+ext-gatt-kennedy-round-1964|GATTケネディ・ラウンド交渉開始|1964|交渉開始|2|国際経済|https://www.wto.org/english/thewto_e/whatis_e/tif_e/fact4_e.htm
+ext-gatt-tokyo-round-1973|GATT東京ラウンド交渉開始|1973|交渉開始|2|国際経済|https://www.wto.org/english/thewto_e/whatis_e/tif_e/fact4_e.htm
+ev-a927d10cb2cc|GATTウルグアイ・ラウンド交渉開始|1986|交渉開始|3|国際経済|https://www.wto.org/english/thewto_e/whatis_e/tif_e/fact5_e.htm
+ext-wto-doha-round-2001|WTOドーハ・ラウンド交渉開始|2001|交渉開始|2|国際経済|https://www.wto.org/english/thewto_e/whatis_e/tif_e/doha1_e.htm
+'@ -split "`n" | ForEach-Object {
+  $id, $title, $year, $dateType, $importance, $categories, $sourceUrl = ($_.Trim() -split '\|', 7)
+  [ordered]@{
+    id = $id
+    title = $title
+    year = [int]$year
+    dateType = $dateType
+    categories = @($categories -split ',')
+    importance = [int]$importance
+    sourceUrl = $sourceUrl
+  }
+}
+$events += $internationalEvents
+$usedIds = @($events | ForEach-Object id)
+
 $mergedTitles = @{
   '衆議院議員選挙法の改正で女性参政権を導入' = '女性参政権を認める衆議院議員選挙法改正'
   '米国がドルと金の交換停止を発表' = 'ニクソン・ショック（金とドルの交換停止）'
@@ -305,7 +350,7 @@ $audit = [ordered]@{
   candidateCount = $candidate.events.Count
   includedCount = $events.Count
   excludedCount = $excluded.Count
-  addedFromLinkedReferences = @($events | Where-Object { $_.title -in $newCandidateTitles -or $_.id -like 'ext-*' } | ForEach-Object { [ordered]@{id=$_.id; title=$_.title; year=$_.year; sourceUrl=$_.sourceUrl} })
+  addedFromLinkedReferences = @($events | Where-Object { $_.title -in $newCandidateTitles -or $_.id -in $extraEvents.id } | ForEach-Object { [ordered]@{id=$_.id; title=$_.title; year=$_.year; sourceUrl=$_.sourceUrl} })
   linkedReferences = @(
     'https://quizlet.com/jp/868871709/政治経済覚えるべき年号-flash-cards/'
     'https://www.takeda.tv/sugamo/blog/post-211188/'
@@ -330,9 +375,11 @@ $audit = [ordered]@{
     [ordered]@{ original='Ankilot: 大日本帝国憲法の施行 1889年'; corrected='大日本帝国憲法の施行 1890年'; year=1890; reason='1889年は発布、1890年は施行。'; sourceUrl=$sources.meijiEnforce }
     [ordered]@{ original='Ankilot: 日本の子どもの権利条約批准 1999年'; corrected='日本による子どもの権利条約の批准 1994年'; year=1994; reason='外務省年表で1994年の批准を確認。'; sourceUrl=$sources.crcJapan }
     [ordered]@{ original='Ankilot: ユーロ流通開始 1999年'; corrected='ユーロの導入（電子決済）1999年／ユーロ紙幣・硬貨の流通開始 2002年'; year=1999; reason='「流通開始」だけでは電子決済と現金の区別が曖昧なため、別の出来事として明示。'; sourceUrl=$sources.euro }
+    [ordered]@{ original='核兵器不拡散条約（NPT）の採択'; corrected='核兵器不拡散条約（NPT）の署名開放'; year=1968; reason='国連総会決議の採択と条約の署名開放を区別し、条約が署名開放された年を問う。'; sourceUrl='https://legal.un.org/avl/HA/tnpt/tnpt.html' }
   )
   levelPolicy = '4=最優先、3=必須、2=標準、1=補強。学習上の優先度は編集判断であり、史実の検証とは別。旧3の中で細かな条約・制度の区別が必要な項目は下位へ移した。'
   levelChanges = $levelChanges
+  addedInternationalEvents = @($internationalEvents | ForEach-Object { [ordered]@{id=$_.id; title=$_.title; year=$_.year; sourceUrl=$_.sourceUrl} })
   excluded = $excluded
 }
 New-Item -ItemType Directory -Path data -Force | Out-Null
